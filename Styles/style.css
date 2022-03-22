@@ -42,7 +42,7 @@ header nav a:hover{
   font-size: 16px;
   background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)50%), url('../IMG/capa.jpg');
  
-  height: 400px;
+  height: 600px;
   background-size: cover;
 
   display: flex;
@@ -53,6 +53,14 @@ header nav a:hover{
 
 .filme-principal .descricao{
   margin-bottom: 40px;
+}
+
+.filme-principal .container{
+  width: 70%;
+}
+
+.container{
+  margin-left: 30px;
 }
 
 .titulo{
@@ -91,4 +99,10 @@ header nav a:hover{
 
 .botao i{
   margin-right: 10px;
+}
+
+.box{
+  height: 100%;
+  width: 100%;
+  display: block;
 }
